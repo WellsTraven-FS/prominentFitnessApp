@@ -25,8 +25,12 @@ app.use("/api/v1/members", memberRouter);
 app.use("/api/v1/auth", authRouter);
 
 //  Look in the react build folder for static build
+const _dirname = path.dirname("");
+const buildPath = path.join(_dirname, "../prominentapp/public");
 
-app.use(express.static(path.join(__dirname, "../prominentapp/public")));
+app.use(express.static(buildPath));
+
+// app.use(express.static(path.join(__dirname, "../prominentapp/public")));
 
 // For any routes not defined by the api, assume it's a direct request to a client-side route
 app.get("/*", (req, res) => {
