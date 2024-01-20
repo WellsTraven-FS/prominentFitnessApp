@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 // Home Workout Videos
 import HomeVideo1 from "../homeVideos/HomeVideo1.mp4";
 import HomeVideo2 from "../homeVideos/HomeVideo2.mp4";
-import HomeVideo3 from "../homeVideos/HomeVideo3.mp4";
-import HomeVideo4 from "../homeVideos/HomeVideo4.mp4";
 
 const AtHomeVideoPage = () => {
     const [isHover, setIsHover] = useState(false);
