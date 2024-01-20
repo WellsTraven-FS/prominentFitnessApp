@@ -30,7 +30,14 @@ app.use(express.static(path.join(__dirname, "../prominentapp/build")));
 
 // For any routes not defined by the api, assume it's a direct request to a client-side route
 app.get("/*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../prominentapp/build", "index.html"));
+    res.sendFile(
+        path.join(__dirname, "../prominentapp/build/index.html"),
+        function (err) {
+            if (err) {
+                res.status(500).send(err);
+            }
+        }
+    );
 });
 
 app.listen(PORT, () => {
