@@ -9,11 +9,11 @@ const app = express();
 app.use(cors());
 
 const PORT = process.env.PORT || 4000;
-const DATABASE_URL = process.env.DATABASE_URL;
+
 const MONGO_URI = process.env.MONGO_URI;
 
 mongoose.set("strictQuery", false);
-mongoose.connect(DATABASE_URL, MONGO_URI, { useNewUrlParser: true });
+mongoose.connect(MONGO_URI, { useNewUrlParser: true });
 const db = mongoose.connection;
 db.on("error", (error) => console.error(error));
 db.once("open", () => console.log("Database Connection Established"));
