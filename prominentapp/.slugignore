@@ -1,4 +1,8 @@
 README.md
 public
-test
-
+logo.svg
+setupTest.js
+App.test.js
+.gitignore
+.images
+.videos
