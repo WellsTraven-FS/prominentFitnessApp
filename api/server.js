@@ -29,7 +29,7 @@ app.use("/api/v1/auth", authRouter);
 app.use(express.static(path.join(__dirname, "../prominentapp/build")));
 
 // For any routes not defined by the api, assume it's a direct request to a client-side route
-app.get("/*", (req, res) => {
+app.get("/", (req, res) => {
     res.sendFile(
         path.join(__dirname, "../prominentapp/build/index.html"),
         function (err) {
