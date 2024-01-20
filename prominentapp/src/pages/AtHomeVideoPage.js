@@ -63,24 +63,6 @@ const AtHomeVideoPage = () => {
                         />
                         <p>HIIT Day Two</p>
                     </section>
-                    <section>
-                        <video
-                            src={HomeVideo3}
-                            width="300px"
-                            height="300px"
-                            controls
-                        />
-                        <p>HIIT Day Three</p>
-                    </section>
-                    <section>
-                        <video
-                            src={HomeVideo4}
-                            width="300px"
-                            height="300px"
-                            controls
-                        />
-                        <p>HIIT Day Four</p>
-                    </section>
                 </section>
                 <section style={styles.spacingEdit}>
                     <Link
