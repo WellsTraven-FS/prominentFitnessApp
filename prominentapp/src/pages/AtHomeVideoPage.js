@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 // Home Workout Videos
 import HomeVideo1 from "../homeVideos/HomeVideo1.mp4";
 import HomeVideo2 from "../homeVideos/HomeVideo2.mp4";
+import HomeVideo3 from "../homeVideos/HomeVideo3.mp4";
+import HomeVideo4 from "../homeVideos/HomeVideo4.mp4";
 
 const AtHomeVideoPage = () => {
     const [isHover, setIsHover] = useState(false);
@@ -61,6 +63,26 @@ const AtHomeVideoPage = () => {
                         />
                         <p>HIIT Day Two</p>
                     </section>
+                    <section>
+                        <video
+                            src={HomeVideo3}
+                            width="300px"
+                            height="300px"
+                            controls
+                        />
+                        <p>HIIT Day Three</p>
+                    </section>
+                    <section>
+                        <video
+                            src={HomeVideo4}
+                            width="300px"
+                            height="300px"
+                            controls
+                        />
+                        <p>HIIT Day Four</p>
+                    </section>
+                </section>
+                <section style={styles.spacingEdit}>
                     <Link
                         to="/home"
                         style={homeButtonEdit}
