@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "cd api && node server.js",
-        "heroku-postbuild": "cd prominentapp && npm run build"
+        "start": "cd api && node server.js"
     },
     "dependencies": {
         "bcrypt-nodejs": "^0.0.3",
@@ -20,8 +19,7 @@
         "passport": "^0.7.0",
         "passport-jwt": "^4.0.1",
         "passport-local": "^1.0.0",
-        "path": "^0.12.7",
-        "react-scripts": "^5.0.1"
+        "path": "^0.12.7"
     },
     "keywords": [],
     "author": "",
