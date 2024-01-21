@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dff903e.css",
+    "main.js": "/static/js/main.a1db26b2.js",
+    "static/js/787.d1031e48.chunk.js": "/static/js/787.d1031e48.chunk.js",
+    "static/media/JumpBattleRope.MP4": "/static/media/JumpBattleRope.3a95183751ae8c33e832.MP4",
+    "static/media/HomeVideo2.mp4": "/static/media/HomeVideo2.d15a9434cb833971c4f1.mp4",
+    "static/media/HomeVideo1.mp4": "/static/media/HomeVideo1.8ec45d54d309f5740f53.mp4",
+    "static/media/Biceps.MP4": "/static/media/Biceps.63c22fc32844b965e8b0.MP4",
+    "static/media/ChestFlies.MP4": "/static/media/ChestFlies.338d47de99f1951d4e70.MP4",
+    "static/media/BenchPress.MP4": "/static/media/BenchPress.273ffb0da2f8e23c4b1c.MP4",
+    "static/media/gymCover.jpeg": "/static/media/gymCover.30caef81eadc5c33dff0.jpeg",
+    "static/media/atHomePhoto.jpg": "/static/media/atHomePhoto.c37943da0913bc9d7593.jpg",
+    "static/media/Logo.jpeg": "/static/media/Logo.4ce6697e49b2361f6fb0.jpeg",
+    "static/media/atGymPhoto.jpeg": "/static/media/atGymPhoto.8d68ed8a5566116dc0a1.jpeg",
+    "index.html": "/index.html",
+    "main.6dff903e.css.map": "/static/css/main.6dff903e.css.map",
+    "main.a1db26b2.js.map": "/static/js/main.a1db26b2.js.map",
+    "787.d1031e48.chunk.js.map": "/static/js/787.d1031e48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dff903e.css",
+    "static/js/main.a1db26b2.js"
+  ]
+}

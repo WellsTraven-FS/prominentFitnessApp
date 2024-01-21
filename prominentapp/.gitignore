@@ -11,6 +11,8 @@
 # production
 # /build
 
+.&& (cd ../api && npm install)
+
 # misc
 .DS_Store
 .env.local
