@@ -26,7 +26,7 @@ app.use("/api/v1/auth", authRouter);
 
 //  Look in the react build folder for static build
 const _dirname = path.dirname("");
-const buildPath = path.join(_dirname, "../prominentapp/public");
+const buildPath = path.join(_dirname, "../prominentapp/build");
 
 app.use(express.static(buildPath));
 
@@ -35,7 +35,7 @@ app.use(express.static(buildPath));
 // For any routes not defined by the api, assume it's a direct request to a client-side route
 app.get("*", (req, res) => {
     res.sendFile(
-        path.join(__dirname, "../prominentapp/public/index.html"),
+        path.join(__dirname, "../prominentapp/build/index.html"),
         function (err) {
             if (err) {
                 res.status(500).send(err);
