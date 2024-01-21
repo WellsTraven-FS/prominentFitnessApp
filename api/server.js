@@ -33,7 +33,7 @@ app.use(express.static(buildPath));
 // app.use(express.static(path.join(__dirname, "../prominentapp/public")));
 
 // For any routes not defined by the api, assume it's a direct request to a client-side route
-app.get("/*", (req, res) => {
+app.get("*", (req, res) => {
     res.sendFile(
         path.join(__dirname, "../prominentapp/public/index.html"),
         function (err) {
