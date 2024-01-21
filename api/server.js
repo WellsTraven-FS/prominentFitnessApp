@@ -26,7 +26,7 @@ app.use("/api/v1/auth", authRouter);
 
 //  Look in the react build folder for static build
 const _dirname = path.dirname("");
-const buildPath = path.join(_dirname, "../prominentapp/build");
+const buildPath = path.join(__dirname, "../prominentapp/build");
 
 app.use(express.static(buildPath));
 
